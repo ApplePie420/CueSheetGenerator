@@ -3,7 +3,9 @@ You like your songs organised, and when listening to sets, you want to just look
 
 # Usage
 ## Installation
-You don't need any special packages. Only two imports that I use are _os_ package for manipulating with files, and my custom [cue file generator](cuefilegenerator.py). So just clone the repo:
+If you don't want to mess around with installing python and cloning this repo, you can just download [binary (exe) file from here.](https://github.com/ApplePie420/CueSheetGenerator/releases/)
+
+Otherwise, you need only [python](https://www.python.org/) installed. It should work with python2 and python3 (py3 is recommended tho). You don't need any special packages. Only two imports that I use are _os_ package for manipulating with files, and my custom [cue file generator](cuefilegenerator.py). So just clone the repo:
 ```bash
 git clone https://github.com/ApplePie420/CueSheetGenerator.git
 ```
@@ -38,7 +40,6 @@ __Script automatically looks for audio files__ with these extensions:
 - wav
 - wma
 - alac
-Although for now, it only works with __mp3, m4a, ogg/opus, flac and alac__.
 
 Next, you need to specify your __tracklist__ file. By default, it will look for file named `tracklist.txt`. If your tracklist is named differently, for example `list.txt`, type that in. __!Be sure that tracklist is formatted as needed (example below)!__.
 
@@ -60,8 +61,8 @@ Time is formatted in HH:MM:SS, where HH is hours, MM are minutes and SS seconds.
 I may add different tracklist formats support later, but honestly why. This is very readable, compact and have all necessary information. And __YES, you can have `[label]` at the end__. If you have problem with this tracklist format, either get used to it, fork this script and modify it, or create other script to convert your format to mine. 
 
 # Todo list
-[x] - ~~Automatically detect codec for cue `FILE` parameter~~
-[ ] - Ignore missing leading zeroes
-[ ] - Add `REM GENRE` and `DATE`
+- [x] ~~Automatically detect codec for cue `FILE` parameter~~
+- [ ] Ignore missing leading zeroes
+- [ ] Add `REM GENRE` and `DATE`
 
 If you have Issues, you know where to post them. Please, feel free to fork, upgrade and request merge. I made this in under an hour so it won't be perfect.
