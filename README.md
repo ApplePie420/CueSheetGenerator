@@ -37,7 +37,6 @@ __Script automatically looks for audio files__ with these extensions:
 - flac
 - wav
 - wma
-- aiff
 - alac
 Although for now, it only works with __mp3, m4a, ogg/opus, flac and alac__.
 
@@ -61,8 +60,8 @@ Time is formatted in HH:MM:SS, where HH is hours, MM are minutes and SS seconds.
 I may add different tracklist formats support later, but honestly why. This is very readable, compact and have all necessary information. And __YES, you can have `[label]` at the end__. If you have problem with this tracklist format, either get used to it, fork this script and modify it, or create other script to convert your format to mine. 
 
 # Todo list
-[] - Automatically detect codec for cue `FILE` parameter
-[] - Ignore missing leading zeroes
-[] - Add `REM GENRE` and `DATE`
+[x] - ~~Automatically detect codec for cue `FILE` parameter~~
+[ ] - Ignore missing leading zeroes
+[ ] - Add `REM GENRE` and `DATE`
 
 If you have Issues, you know where to post them. Please, feel free to fork, upgrade and request merge. I made this in under an hour so it won't be perfect.
